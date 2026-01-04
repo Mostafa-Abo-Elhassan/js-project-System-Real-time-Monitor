@@ -3,7 +3,7 @@
 A high-performance, production-ready system monitoring dashboard built with **Vanilla JavaScript (ES6+)**. This project serves as a practical implementation of advanced JavaScript concepts, structured with a **Clean Architecture** mindset similar to .NET backend standards.
 
 
-![System Monitor Demo](./Demo%20image/System%20Real-time%20Monitor.png)
+![System Monitor Demo](Demo images/System Real-time Monitor.jpeg)
 ---
 
 
