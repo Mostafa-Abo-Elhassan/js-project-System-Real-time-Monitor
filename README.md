@@ -2,7 +2,10 @@
 
 A high-performance, production-ready system monitoring dashboard built with **Vanilla JavaScript (ES6+)**. This project serves as a practical implementation of advanced JavaScript concepts, structured with a **Clean Architecture** mindset similar to .NET backend standards.
 
+
+![System Monitor Demo](./Demo%20image/System%20Real-time%20Monitor.png)
 ---
+
 
 ## 🏗 Modular Architecture
 
@@ -13,6 +16,18 @@ The project is structured to ensure **Separation of Concerns (SoC)**, making it 
 - **`app.js` (Orchestrator):** The entry point of the application. It manages the **Async Loop** and coordinates between the Service and the View.
 
 ---
+## 📂 Project Structure
+
+```text
+/system-monitor
+│── index.html          # Markup structure (The View)
+│── style.css           # Styling and layout (Look & Feel)
+└── /js
+    ├── app.js          # Entry point (Equivalent to Program.cs)
+    ├── monitor.js      # Business logic and API data fetching (Service Layer)
+    └── ui.js           # DOM manipulation and UI rendering (View Logic)
+
+
 
 ## 🧠 Core JavaScript Concepts Implemented
 
